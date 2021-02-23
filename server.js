@@ -30,6 +30,9 @@ app.get('/people',(req,res)=>{
         // console.log(results);
         res.send(results.rows);
     })
+    .catch((error)=>{
+        res.send('pppppppppppp',error.message)
+    })
 })
 
 /// localhost:3000/addMember?first=lina&last=mashayekh
@@ -45,6 +48,9 @@ app.get('/addMember',(req,res)=>{
         // res.send('data has been inserted!!');
     })
     // .catch()
+    .catch((error)=>{
+        res.send('eeeeeeeeeeee',error.message)
+    })
 
 })
 
@@ -73,6 +79,9 @@ client.connect()
     app.listen(PORT, () =>
     console.log(`listening on ${PORT}`)
     );
+})
+.catch((error)=>{
+    res.send('ccccccccccc',error.message)
 })
 
 
