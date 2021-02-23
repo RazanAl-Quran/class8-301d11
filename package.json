@@ -1,5 +1,5 @@
 {
-  "name": "class08-demo",
+  "name": "class8-301d11",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -9,20 +9,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/RazanAl-Quran/class08-demo.git"
+    "url": "git+https://github.com/RazanAl-Quran/class8-301d11.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/RazanAl-Quran/class08-demo/issues"
+    "url": "https://github.com/RazanAl-Quran/class8-301d11/issues"
   },
-  "homepage": "https://github.com/RazanAl-Quran/class08-demo#readme",
+  "homepage": "https://github.com/RazanAl-Quran/class8-301d11#readme",
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
-    "pg": "^7.18.2",
-    "superagent": "^5.1.0"
+    "pg": "^8.5.1"
   }
 }
